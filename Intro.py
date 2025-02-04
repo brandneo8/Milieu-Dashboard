@@ -13,8 +13,7 @@ st.set_page_config(
 today = datetime.today().strftime("%Y")
 
 #Airtable API Key
-AIRTABLE_API_KEY = "patKvBSBUaWVdmY59.811346d6e0eb96cae4e306d71de2d85f995b6c2445ffed74b57e38bc998659f5"
-#st.secrets["airtable_key"]
+AIRTABLE_API_KEY = st.secrets["airtable_key"]
 
 #Airtable Base
 AIRTABLE_BASE_ID = "apploU6sePuvAvr9G"
