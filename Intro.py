@@ -22,5 +22,3 @@ AIRTABLE_BASE_ID = "apploU6sePuvAvr9G"
 api=Api(AIRTABLE_API_KEY)
 tblsales = api.table(AIRTABLE_BASE_ID,'actual sales')
 tblsalestracker = api.table(AIRTABLE_BASE_ID,'month comparison')
-
-print(tblsalestracker)
